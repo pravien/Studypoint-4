@@ -5,8 +5,10 @@
 
 
   Link til opgaver https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises
+  
   ### Exercise 1
   The files i have used are https://github.com/pravien/Studypoint-4/blob/master/startCodeForThreadExercises/src/main/java/day1/MainDay1.java
+  
   a) Do you observe a need for synchronization techniques on any of the threads in practise, or does your program work by         accident?
 
    - Yes in thread 3. Because we need a global boolean variable to make sure that the while loop stop. I have used volatile.
@@ -27,6 +29,7 @@
   
   Src code https://github.com/pravien/Studypoint-4/blob/master/startCodeForThreadExercises/src/main/java/day1/Exercise2.java
 
+  
   a) Are you able to provoke the expected error on your machine?
   
    - Yes i am able to provoke the expected error , which is getting a number that is not even.
