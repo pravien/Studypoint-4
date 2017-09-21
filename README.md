@@ -2,8 +2,11 @@
 
 ## Threads Day-1.
 
-  ### Exercise 1
 
+
+  Link til opgaver https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises
+  ### Exercise 1
+  The files i have used are https://github.com/pravien/Studypoint-4/blob/master/startCodeForThreadExercises/src/main/java/day1/MainDay1.java
   a) Do you observe a need for synchronization techniques on any of the threads in practise, or does your program work by         accident?
 
    - Yes in thread 3. Because we need a global boolean variable to make sure that the while loop stop. I have used volatile.
@@ -21,6 +24,8 @@
    - My solution is correct because is uses the tools we learned at todays lecture.
     
   ### Excercise 2
+  
+  Src code https://github.com/pravien/Studypoint-4/blob/master/startCodeForThreadExercises/src/main/java/day1/Exercise2.java
 
   a) Are you able to provoke the expected error on your machine?
   
@@ -40,6 +45,8 @@
    - The solution is correct because i have used the keyword synchronized, which make sure that when one of the thread's are    using the fucntion next() it has to finish running function before the other thread can use the function, by doin this the    threads don't interfer with eachother.
     
  ### Exercise 5 (Race condition)
+package day1.turnstiles
+src file : https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises/src/main/java/day1/turnstiles
   
 a) Do you get the right result? 
   
@@ -52,10 +59,17 @@ b) What is the problem in the code? (It’s there whether you get the right resu
   
 
 c) Solve the problem using synchronization techniques.
+
+### Exercise 6 (race condition)  RED
+ The pakage used is day1.bank
+ src files : https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises/src/main/java/day1/bank
   
 ## Threads Day-2.
-
-  ### Exercise 1
+ 
+ ### Exercise 1
+  Package used day2.webscraper
+ src files https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises/src/main/java/day2/webscraper
+   
    a)
   Run the main method in the Tester class, and make sure you understand conceptually what happens. Especially you should note that these lines : tcX.run() probably takes a noticeable amount of time (why?)
 
@@ -82,7 +96,8 @@ Let's see whether we gained anything by executing the three calculations in para
 
 
 ## Exercise 3
-
+Packege used day2.rndnumberprodcon
+src files https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises/src/main/java/day2/rndnumberprodcon
 a) 
 Before you start you should understand the general idea, behind the exercise as described above by answering the following questions.
 
@@ -109,6 +124,8 @@ f) Run and “verify” the behaviour of the completed program
 
 
 ## Exercise 4
+Package used day2.webscrapprodcon - 
+src files https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises/src/main/java/day2/webscrapprodcon
 
 d) Note the order in which the consumer prints the results.
 
@@ -127,6 +144,8 @@ Day-3 will provide you a way to “return” values from your threads and contro
 
 ## Exercise 5
 
+src files https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises/src/main/java/day2/deadlock
+
 a) Does the program behave as expected, if not explain the problem. GREEN
 
  - Yes it create a deadlock because one thread is locking the first operation and the second lock is locking the second   operation and they both need the other threads operation to continue. 
@@ -136,5 +155,16 @@ c) Identify the problem in the code? GREEN
  - see answer a.
  
  
+## Threads Day-3.
+
+src files - https://github.com/pravien/Studypoint-4/tree/master/Threads-3-exercise-code
+
+## Studypoint1.
+
+- https://github.com/pravien/Studypoint-4/tree/master/Studypoint1/Studypoint1
+
+## Studypoint2.
+
+- https://github.com/pravien/Studypoint-4/tree/master/Studypoint2/Studypoint2
 
 
