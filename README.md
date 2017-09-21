@@ -154,11 +154,12 @@ src files https://github.com/pravien/Studypoint-4/tree/master/startCodeForThread
 
 a) Does the program behave as expected, if not explain the problem. GREEN
 
- - Yes it create a deadlock because one thread is locking the first operation and the second lock is locking the second   operation and they both need the other threads operation to continue. 
+ - Yes it create a deadlock because one thread is locking the first operation and the second Thread is locking the second   operation and they both need the other threads operation to continue. 
 
 c) Identify the problem in the code? GREEN
 
- - see answer a.
+ - The main problem here is that when one opereation is locked it is never unlocked again and this causes a deadlock.
+ - The program can be fixed by inserting the unlock method into both og the threads.
  
  
 ## Threads Day-3.
