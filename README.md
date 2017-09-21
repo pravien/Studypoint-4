@@ -1,10 +1,6 @@
 # Studypoint-4
 
 ## Threads Day-1.
-
-
-
-  Link til opgaver https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises
   
   ### Exercise 1
   
