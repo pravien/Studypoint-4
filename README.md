@@ -7,7 +7,8 @@
   Link til opgaver https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises
   
   ### Exercise 1
-  The files i have used are https://github.com/pravien/Studypoint-4/blob/master/startCodeForThreadExercises/src/main/java/day1/MainDay1.java
+  
+  src file https://github.com/pravien/Studypoint-4/blob/master/startCodeForThreadExercises/src/main/java/day1/MainDay1.java
   
   a) Do you observe a need for synchronization techniques on any of the threads in practise, or does your program work by         accident?
 
@@ -49,6 +50,7 @@
     
  ### Exercise 5 (Race condition)
 package day1.turnstiles
+
 src file : https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises/src/main/java/day1/turnstiles
   
 a) Do you get the right result? 
@@ -65,12 +67,14 @@ c) Solve the problem using synchronization techniques.
 
 ### Exercise 6 (race condition)  RED
  The pakage used is day1.bank
+ 
  src files : https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises/src/main/java/day1/bank
   
 ## Threads Day-2.
  
  ### Exercise 1
   Package used day2.webscraper
+  
  src files https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises/src/main/java/day2/webscraper
    
    a)
@@ -100,7 +104,9 @@ Let's see whether we gained anything by executing the three calculations in para
 
 ## Exercise 3
 Packege used day2.rndnumberprodcon
+
 src files https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises/src/main/java/day2/rndnumberprodcon
+
 a) 
 Before you start you should understand the general idea, behind the exercise as described above by answering the following questions.
 
@@ -128,6 +134,7 @@ f) Run and “verify” the behaviour of the completed program
 
 ## Exercise 4
 Package used day2.webscrapprodcon - 
+
 src files https://github.com/pravien/Studypoint-4/tree/master/startCodeForThreadExercises/src/main/java/day2/webscrapprodcon
 
 d) Note the order in which the consumer prints the results.
@@ -164,10 +171,10 @@ src files - https://github.com/pravien/Studypoint-4/tree/master/Threads-3-exerci
 
 ## Studypoint1.
 
-- https://github.com/pravien/Studypoint-4/tree/master/Studypoint1/Studypoint1
+src files - https://github.com/pravien/Studypoint-4/tree/master/Studypoint1/Studypoint1
 
 ## Studypoint2.
 
-- https://github.com/pravien/Studypoint-4/tree/master/Studypoint2/Studypoint2
+src files - https://github.com/pravien/Studypoint-4/tree/master/Studypoint2/Studypoint2
 
 
